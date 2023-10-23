@@ -17,13 +17,13 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className ="background">
         <div id="quote-box">
           <div className="quote-content">
             <FaQuoteLeft size ="30" style={{marginRight: "10px"}} /> 
             <h2 id="text">{quote.quote}</h2>
             <FaQuoteRight size ="30" style={{marginLeft: "10px"}} /> 
-            <h4 id="author">{quote.author}</h4>
+            <h4 id="author">- {quote.author}</h4>
           </div>
         </div>
       </div> 
